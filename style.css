@@ -1,0 +1,301 @@
+*{
+	padding: 0;
+	margin: 0;  
+	font-family: 'Raleway', sans-serif;
+}
+body{
+	background-color: #c7c7c7;
+}
+
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Cover.jpeg);
+	background-position: center;
+	background-size: cover;
+	position: relative;  
+}
+
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 100px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative; 
+}
+
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px; 
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: red;
+	display: block;
+	margin: auto; 
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+
+.tex-box{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.tex-box h1{
+	font-size: 62px;
+}
+.tex-box h3{
+	margin: 10px 0 40px;
+	font-size: 20px;
+	color: #fff; 
+}
+.button{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.button:hover{
+	border: 1px solid #c7c7c7;
+	background: #f44336;
+	transition: 1s;
+
+}
+
+.h1 ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px;
+	position: relative;
+	top: 50%;
+	width: 100px;
+	height: 100px;
+	color: #fff;
+	font-size: 40px;
+	display: flex;
+	font-family: 'Supermercado One', cursive
+}
+
+
+/*----- home ----*/
+
+.Cebu{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: 600;
+	font-family: 'Supermercado One', cursive
+}
+p{
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.pic-col img{
+	width: 350px;
+	height: 300px;
+	position: relative;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	transition: 0.5s;
+
+}
+
+.pic-col img:hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.desc p{
+	font-size: 12px;
+	color: black;
+}
+
+
+/*------ tourist and beach ---*/
+
+.beaches{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: 600;
+	font-family: 'Supermercado One', cursive
+}
+p{
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.pic-col img{
+	width: 350px;
+	height: 300px;
+	position: relative;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	transition: 0.5s;
+
+}
+
+.pic-col img:hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+
+
+
+/*----foods----*/
+.foods{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.foods img{
+	width: 900px;
+	height: 400px;
+	position: relative;
+	padding: 20px 12px;
+	transition: 0.5s;
+}
+.foods img:hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.name_title h3{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*---- festivals----*/
+.festivals{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.title{
+	margin-top: 5%;
+}
+.title h3{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+.title p{
+	font-size: 15px;
+	text-align: left;
+}
+.title h5{
+	margin-top: 5%;
+}
+.festivals img{
+	width: 350px;
+	height: 300px;
+	position: relative;
+	padding: 20px 12px;
+	transition: 0.5s;
+}
+.festivals img:hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+
+/*----- people ----*/
+.people{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.title{
+	margin-top: 5%;
+}
+.title_last h3{
+	font-size: 18px;
+	text-align: center;
+	margin-top: 5%;
+	font-family: 'Raleway', sans-serif;
+}
+.title p{
+	font-size: 15px;
+	text-align: center;
+}
+.people img{
+	width: 350px;
+	height: 300px;
+	position: relative;
+	padding: 20px 12px;
+	transition: 0.5s;
+}
+.people img:hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+
+/*------ footer ----*/
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20%;
+	font-weight: 600;
+}
+
+/*---- home ---*/
+
